@@ -217,9 +217,7 @@ body {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70));
 
 }
 
@@ -448,7 +446,7 @@ body {
 
 }
 
-
+.caption-list-link:focus,
 .caption-list-link:focus {
     background-color: var(--accent-color);
 }
@@ -518,24 +516,18 @@ body {
 
 .customers-list-link:hover,
 .customers-list-link:focus {
-
-    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 .customers-icon {
     fill: currentColor;
 }
 
+
 /* ========/section 5======== */
 /* =====section portfolio=== */
-
-.section-title-item {
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
 
 .section-body {
     padding-top: 96px;
@@ -547,6 +539,7 @@ body {
     gap: 24px;
     margin-bottom: 72px;
     justify-content: center;
+
 }
 
 .modal-button-portfolio {
@@ -567,6 +560,7 @@ body {
     border-radius: 4px;
 }
 
+
 .modal-button-portfolio:hover,
 .modal-button-portfolio:focus {
     border: 1px solid transparent;
@@ -586,6 +580,7 @@ body {
 .picture-link {
     display: block;
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 
 }
 
@@ -770,7 +765,7 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.social-networks-footer-link:hover,
 .social-networks-footer-link:focus {
     background-color: #31d0aa;
 }
@@ -787,15 +782,12 @@ body {
     background-color: rgba(46, 47, 66, 0.4);
     width: 100%;
     height: 100%;
-
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
     position: fixed;
     top: 0;
     left: 0;
 }
 
-/* .backdrop .is-hidden {
-    transform: translate(-50% -50%);
-} */
 
 .modal-window {
     min-width: 408px;
