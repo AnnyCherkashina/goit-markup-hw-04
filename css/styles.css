@@ -764,9 +764,12 @@ body {
 }
 
 .social-networks-footer-link:focus {
-    background-color: #31d0aa;
+    fill: #31D0AA;
 }
 
+.social-networks-footer-link:hover {
+    background-color: #31d0aa;
+}
 
 .svg-icone-footer {
     fill: var(--butoon-background-color);
