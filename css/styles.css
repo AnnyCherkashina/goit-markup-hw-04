@@ -579,10 +579,6 @@ body {
 
 }
 
-.picture-link:focus,
-.picture-link:hover p {
-    transform: translateY(0%);
-}
 
 .picture-link:hover,
 .picture-link:focus {
